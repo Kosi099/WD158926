@@ -1,2 +1,2 @@
-liczby = [5,6,2,6]
+liczby = [53245,5234,6534,2345]
 print(liczby)
