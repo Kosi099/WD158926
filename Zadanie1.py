@@ -1,2 +1,6 @@
-liczby = [53245,5234,6534,2345]
-print(liczby)
+#Zadanie 1
+A = [1/x for x in range(1,11)]
+B = [2**x for x in range (11)]
+C = [x for x in B if x % 4 == 0]
+#Zadanie 2
+
