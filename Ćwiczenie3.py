@@ -45,11 +45,10 @@ def pitagoras(a=3,b=4):
     c=math.sqrt(a**2+b**2)
     return c
 #Zadanie 8
-def ciag(a,r,ile):
+def ciag(a=1,r=1,ile=10):
     s=a
     k=a
     for ile in range(0,ile-1):
          k=k+r
          s=s+k
     return s
-print(ciag(1,1,4))
