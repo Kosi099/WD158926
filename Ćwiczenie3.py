@@ -1,4 +1,5 @@
 import random
+import math
 #Zadanie 1
 A = [1/x for x in range(1,11)]
 B = [2**x for x in range (11)]
@@ -35,5 +36,11 @@ def spr_prost_równ(a1,a2):
         print("Proste są prostopadłe")
     else:
         print("Proste nie są prostopadłe oraz równoległe")
-
-
+#Zadanie 6
+def dlug_prom(x=-5,y=-3,a=-1,b=-6):
+    r=math.sqrt((x-a)**2+(y-b)**2)
+    return r
+#Zadanie 7
+def pitagoras(a=3,b=4):
+    c=math.sqrt(a**2+b**2)
+    return c
