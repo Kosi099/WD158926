@@ -27,3 +27,13 @@ def row_lin(a):
         print("Funkcja malejaca")
     else:
         print("Funkcja stała")
+#Zadanie 5
+def spr_prost_równ(a1,a2):
+    if a1==a2:
+        print("Proste są równoległe")
+    elif a1*a2==-1:
+        print("Proste są prostopadłe")
+    else:
+        print("Proste nie są prostopadłe oraz równoległe")
+
+
