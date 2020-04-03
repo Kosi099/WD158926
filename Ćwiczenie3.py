@@ -44,3 +44,12 @@ def dlug_prom(x=-5,y=-3,a=-1,b=-6):
 def pitagoras(a=3,b=4):
     c=math.sqrt(a**2+b**2)
     return c
+#Zadanie 8
+def ciag(a,r,ile):
+    s=a
+    k=a
+    for ile in range(0,ile-1):
+         k=k+r
+         s=s+k
+    return s
+print(ciag(1,1,4))
