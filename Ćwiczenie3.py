@@ -60,4 +60,3 @@ def ciag_ilocz(a=1,r=1,ile=10):
          k=k+r
          s=s*k
     return s
-print(ciag_ilocz())
