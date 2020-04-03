@@ -19,4 +19,11 @@ if skroty['Ziemniaki']=="sztuki":
     lista.append("Ziemniaki")
 if skroty['Papier_Toaletowy']=="sztuki":
     lista.append("Papier_Toaletowy")
-print(lista)
+#Zadanie 4
+def row_lin(a):
+    if a>0:
+        print("Funkcja rosnąca")
+    elif a<0:
+        print("Funkcja malejaca")
+    else:
+        print("Funkcja stała")
