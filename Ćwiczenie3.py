@@ -74,3 +74,4 @@ b1=5
 a2=6
 b2=7
 print(liczby_urojone.dod_od.dod(a1,b1,a2,b2))
+#Zadanie 12
