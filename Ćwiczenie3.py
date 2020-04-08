@@ -1,5 +1,6 @@
 import random
 import math
+import liczby_urojone.dod_od
 #Zadanie 1
 A = [1/x for x in range(1,11)]
 B = [2**x for x in range (11)]
@@ -67,4 +68,9 @@ def ilosc_prod(** prod):
        s=prod[cos]
        k=k+s
     return k
-print(ilosc_prod(Ziemniaki=5,Chleb=24))
+#Zadanie 11
+a1=5
+b1=5
+a2=6
+b2=7
+print(liczby_urojone.dod_od.dod(a1,b1,a2,b2))
