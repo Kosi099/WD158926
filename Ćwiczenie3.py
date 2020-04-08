@@ -60,3 +60,11 @@ def ciag_ilocz(a=1,r=1,ile=10):
          k=k+r
          s=s*k
     return s
+#zadanie 10
+def ilosc_prod(** prod):
+    k=0
+    for cos in prod:
+       s=prod[cos]
+       k=k+s
+    return k
+print(ilosc_prod(Ziemniaki=5,Chleb=24))
