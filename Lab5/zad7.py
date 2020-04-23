@@ -1,5 +1,4 @@
 class Wspak:
-    """Iterator zwracający wartości w odwróconym porządku"""
     def __init__(self, data):
         self.data = data
         self.index = len(data)
